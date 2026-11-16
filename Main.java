@@ -3,6 +3,7 @@ package localTest;
 
 class MyThread extends Thread {
 
+    @Override
     public void run() {
         System.out.println("Thread class is running");
 
@@ -14,6 +15,7 @@ class MyThread extends Thread {
 
 class MyRunnable implements Runnable {
 
+    @Override
     public void run() {
         System.out.println("Runnable interface is running");
 
